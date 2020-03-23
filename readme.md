@@ -1,4 +1,4 @@
-Create blazing fast self signed ssl certificates without OpenSSL.
+Create blazing fast self signed ssl certificates without OpenSSL using BlazeCert™
 
 ## Install
 ```
@@ -50,9 +50,9 @@ import * as blazecert from 'blazecert';
 //Create a Certificate Authority
 blazecert.createCA({
   organization: 'Hello CA',
-  countryCode: 'NP',
-  state: 'Bagmati',
-  locality: 'Kathmandu',
+  countryCode: 'IND',
+  state: 'West Bengal',
+  locality: 'Kolkata',
   validityDays: 365
 })
 .then((ca)=> {
