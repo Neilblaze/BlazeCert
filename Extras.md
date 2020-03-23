@@ -1,0 +1,28 @@
+While working:-
+
+#### .gitignore
+```
+.DS_Store
+node_modules
+coverage
+```
+
+#### .npmignore
+```
+coverage
+node_modules
+tests
+.editorconfig
+```
+
+#### .editorconfig
+```
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 2
+[*.js]
+insert_final_newline = true
+```
