@@ -1,0 +1,44 @@
+{
+  "name": "blazecert",
+  "version": "3.2.0",
+  "description": "Create Self Signed Development Certificates without O-SSL",
+  "main": "src/blazecert.js",
+  "bin": {
+    "blazecert": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "fixtures"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neilblaze/blazecert.git"
+  },
+  "keywords": [
+    "signed",
+    "certificate",
+    "cert"
+  ],
+  "author": "Pratyay Banerjee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neilblaze/blazecert/issues"
+  },
+  "homepage": "https://github.com/Neilblaze/blazecert#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "is-ip": "^2.0.0",
+    "node-forge": "^0.7.6",
+    "random-int": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}
